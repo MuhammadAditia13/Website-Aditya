@@ -1,0 +1,48 @@
+.genre-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genre-game a {
+    margin-left: 2%;
+    padding: 10px;
+    border: 1px rgb(83, 0, 188) solid;
+    border-radius: 20px;
+}
+
+.genre-game a:hover {
+    color: white;
+    border-color: white;
+    background-color: rgb(83, 0, 188);
+}
+
+.genre-game a:active {
+    color: white;
+    border-color: white;
+    background-color: rgb(89, 72, 110);
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button:hover {
+    background-color: #45a049;
+}
+
+.pagination .page-number {
+    font-size: 18px;
+    margin: 0 10px;
+}

@@ -1,0 +1,73 @@
+.img-game img {
+    height: 370px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.about-game-container h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-game p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.download button {
+    font-size: 18px;
+    padding: 15px;
+    border: 1px rgb(255, 255, 255) solid;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #5300bc;
+    cursor: pointer;
+}
+
+.download button:hover {
+    background-color: blue;
+}
+
+/* Gameplay */
+
+.container-gameplay {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 200px;
+}
+
+.container-gameplay h1 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid  rgb(83, 0, 188);;
+    font-size: 50px;
+}
+
+.gameplay {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.gameplay iframe {
+    border-radius: 20px;
+}
+
+/* window-spec */
+
+.window-spec {
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.window-spec h1 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(83, 0, 188);
+}
+.window-spec p {
+    padding-top: 30px;
+    font-size: 20px;
+}
