@@ -71,3 +71,17 @@
     padding-top: 30px;
     font-size: 20px;
 }
+
+@media (max-width :576px) {
+    .img-dowgame {
+        width: 250px;
+    }
+
+    .about-game {
+        gap: 10px;
+    }
+
+    .container-dowgame {
+        padding-top: 0%;
+    }
+}

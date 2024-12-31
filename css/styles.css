@@ -175,11 +175,17 @@ a {
 }
 
 .game-populer-container {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4,400px);
     gap: 6px;
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 5%;
+    margin-right: 5%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
 }
 
 .img-size {
@@ -338,3 +344,231 @@ a {
         font-size: 18px;
     }
 /* footer end *
+/* responsive */
+
+@media (max-width : 576px) {
+    .game-populer-container {
+        display: grid;
+        grid-template-columns: repeat(1,250px);
+        margin-top: 30px;
+        /* margin-left: 150px; */
+    }
+
+    .img-child {
+        width: 200px;
+    }
+
+    .sitename {
+        font-size: 18px;
+    }
+
+    .sitename h3 {
+        font-size: 15px;
+    }
+
+    .game-populer h3 {
+        font-size: 20px;
+    }
+
+    .img-game {
+        width: 300px;
+    }
+
+    .img-size {
+        height: 400px;
+    }
+
+    .contant-3 h1 {
+        font-size: 20px;
+    }
+
+    .text-and-img-contant-2 {
+        font-size: 16px;
+    }
+
+    .contant-2 h3 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width : 577px) and (max-width : 768px) {
+    .game-populer-container {
+        display: grid;
+        grid-template-columns: repeat(1,250px);
+        margin-top: 30px;
+        /* margin-left: 150px; */
+    }
+
+    .img-child {
+        width: 200px;
+    }
+
+    .sitename {
+        font-size: 20px;
+    }
+
+    .sitename h3 {
+        font-size: 18px;
+    }
+
+    .game-populer h3 {
+        font-size: 22px;
+    }
+
+    .img-game {
+        width: 300px;
+    }
+
+    .img-size {
+        height: 400px;
+    }
+
+    .contant-3 h1 {
+        font-size: 22px;
+    }
+
+    .text-and-img-contant-2 {
+        font-size: 18px;
+    }
+
+    .contant-2 h3 {
+        font-size: 37px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .game-populer-container {
+        display: grid;
+        grid-template-columns: repeat(1,250px);
+        margin-top: 30px;
+        /* margin-left: 150px; */
+    }
+
+    .img-child {
+        width: 200px;
+    }
+
+    .sitename {
+        font-size: 22px;
+    }
+
+    .sitename h3 {
+        font-size: 20px;
+    }
+
+    .game-populer h3 {
+        font-size: 24px;
+    }
+
+    .img-game {
+        width: 300px;
+    }
+
+    .img-size {
+        height: 400px;
+    }
+
+    .contant-3 h1 {
+        font-size: 24px;
+    }
+
+    .text-and-img-contant-2 {
+        font-size: 20px;
+    }
+
+    .contant-2 h3 {
+        font-size: 39px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .game-populer-container {
+        display: grid;
+        grid-template-columns: repeat(1,250px);
+        gap: 20px;
+        margin-top: 30px;
+        /* margin-left: 150px; */
+    }
+
+    .img-child {
+        width: 300px;
+    }
+
+    .sitename {
+        font-size: 24px;
+    }
+
+    .sitename h3 {
+        font-size: 22px;
+    }
+
+    .game-populer h3 {
+        font-size: 26px;
+    }
+
+    .img-game {
+        width: 300px;
+    }
+
+    .img-size {
+        height: 400px;
+    }
+
+    .contant-3 h1 {
+        font-size: 26px;
+    }
+
+    .text-and-img-contant-2 {
+        font-size: 22px;
+    }
+
+    .contant-2 h3 {
+        font-size: 41px;
+    }
+}
+
+@media (min-width: 1021px) and (max-width: 1429px) {
+    .game-populer-container {
+        display: grid;
+        grid-template-columns: repeat(1,250px);
+        gap: 20px;
+        margin-top: 30px;
+        /* margin-left: 150px; */
+    }
+
+    .img-child {
+        width: 300px;
+    }
+
+    .sitename {
+        font-size: 26px;
+    }
+
+    .sitename h3 {
+        font-size: 24px;
+    }
+
+    .game-populer h3 {
+        font-size: 28px;
+    }
+
+    .img-game {
+        width: 300px;
+    }
+
+    .img-size {
+        height: 400px;
+    }
+
+    .contant-3 h1 {
+        font-size: 28px;
+    }
+
+    .text-and-img-contant-2 {
+        font-size: 24px;
+    }
+
+    .contant-2 h3 {
+        font-size: 43px;
+    }
+}
