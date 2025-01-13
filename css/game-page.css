@@ -1,0 +1,23 @@
+.page-game {
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    margin-top: 5%;
+    gap: 0%;
+    
+}
+
+.page-game-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* max-width: 100%; */
+    margin-top: 3%;
+}
+
+.img-size {
+    display: flex;
+    justify-content: center; /* Untuk memastikan gambar berada di tengah secara horizontal */
+    align-items: center;    /* Untuk memastikan gambar berada di tengah secara vertikal */
+}
