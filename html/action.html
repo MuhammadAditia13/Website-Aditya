@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/genre-game.css">
+    
+    <!-- font-google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Space+Grotesk&display=swap" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container-navbar animate__animated animate__fadeInDown">
+        <div class="sitename">
+            <h1>Romsgame</h1>
+            <h3>Website Gaming For Free</h3>
+        </div>
+        <div style="margin-right: 30px;">
+            <ul class="navbar-group">
+                <li class="navbar-item"><a href="index.html">Home</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Device</button>
+                    <div class="dropdown-content">
+                        <a href="android.html">Android</a></li>
+                        <a href="pc.html">Pc</a></li>
+                        <a href="">Nintendo Switch</a></li>
+                        <a href="">Ps vita</a></li>
+                    </div>
+                </div>
+                </li>
+                <li class="navbar-item"><a href="">Blog</a></li>
+            </ul>
+            <form class="search" onsubmit="return searchGame()">
+                <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="20px" fill="#000000"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></button>
+                <input type="text" placeholder="search here" id="gameSearchinput" name="search">
+            </form>
+        </div>
+    </div>
+    <!-- navbar end -->
+    <!-- contant 1 -->
+    <div class="game-populer animate__animated animate__fadeInUp">
+        <h3>Pc Games</h3>
+        <div class="genre-game">
+            <a href="action.html">Action</a>
+            <a href="">Adventure</a>
+            <a href="">Shooter</a>
+            <a href="">RPG</a>
+            <a href="">Strategy</a>
+            <a href="">Sport</a>
+            <a href="">Racing</a>
+            <a href="">Simulation</a>
+            <a href="">Fighting</a>
+            <a href="">Horror</a>
+        </div>
+        <div class="game-populer-container" id="gameList">
+            <div class="game-populer-style" data-game="Marvel Spider-man 2">
+                <div class="img-size">
+                    <a href="Marvel Spider-man 2.html"><img
+                    src="EGS_Octopus_InsomniacGamesNixxesSoftware_S2_1200x1600-5831c61378872a1fe233b295fbf3140f.avif" alt="Marvel Spider-man 2"></a>
+                </div>
+                <h6><a href="">Window</a></h6>
+                <p><a href="">Marvel Spider-man 2</a></p>
+            </div>
+            <div class="game-populer-style" data-game="LEGO Horizon Adventures">
+                <div class="img-size">
+                    <a href="Marvel Spider-man 2.html"><img
+                    src="file-photo-pc/EGS_LEGOHorizonAdventuresDDEUpgrade_GuerrillaStudioGobo_AddOn_S2_1200x1600-112ee2a50ac63802bf1e8a4712bbdef5.avif" alt="LEGO Horizon Adventures"></a>
+                </div>
+                <h6><a href="">Window</a></h6>
+                <p><a href="">LEGO Horizon Adventures</a></p>
+            </div>
+            <div class="game-populer-style" data-game="Marvel Spider-man 2">
+                <div class="img-size">
+                    <a href="Marvel Spider-man 2.html"><img
+                    src="EGS_Octopus_InsomniacGamesNixxesSoftware_S2_1200x1600-5831c61378872a1fe233b295fbf3140f.avif" alt="Marvel Spider-man 2"></a>
+                </div>
+                <h6><a href="">Window</a></h6>
+                <p><a href="">Marvel Spider-man 2</a></p>
+            </div>
+            <div class="game-populer-style" data-game="Marvel Spider-man 2">
+                <div class="img-size">
+                    <a href="Marvel Spider-man 2.html"><img
+                    src="EGS_Octopus_InsomniacGamesNixxesSoftware_S2_1200x1600-5831c61378872a1fe233b295fbf3140f.avif" alt="Marvel Spider-man 2"></a>
+                </div>
+                <h6><a href="">Window</a></h6>
+                <p><a href="">Marvel Spider-man 2</a></p>
+            </div>
+            <div class="game-populer-style" data-game="Marvel Spider-man 2">
+                <div class="img-size">
+                    <a href="Marvel Spider-man 2.html"><img
+                    src="EGS_Octopus_InsomniacGamesNixxesSoftware_S2_1200x1600-5831c61378872a1fe233b295fbf3140f.avif" alt="Marvel Spider-man 2"></a>
+                </div>
+                <h6><a href="">Window</a></h6>
+                <p><a href="">Marvel Spider-man 2</a></p>
+            </div>
+            <div class="game-populer-style" data-game="Marvel Spider-man 2">
+                <div class="img-size">
+                    <a href="Marvel Spider-man 2.html"><img
+                    src="EGS_Octopus_InsomniacGamesNixxesSoftware_S2_1200x1600-5831c61378872a1fe233b295fbf3140f.avif" alt="Marvel Spider-man 2"></a>
+                </div>
+                <h6><a href="">Window</a></h6>
+                <p><a href="">Marvel Spider-man 2</a></p>
+            </div>
+            <div class="game-populer-style" data-game="Marvel Spider-man 2">
+                <div class="img-size">
+                    <a href="Marvel Spider-man 2.html"><img
+                    src="EGS_Octopus_InsomniacGamesNixxesSoftware_S2_1200x1600-5831c61378872a1fe233b295fbf3140f.avif" alt="Marvel Spider-man 2"></a>
+                </div>
+                <h6><a href="">Window</a></h6>
+                <p><a href="">Marvel Spider-man 2</a></p>
+            </div>
+            <div class="game-populer-style" data-game="Marvel Spider-man 2">
+                <div class="img-size">
+                    <a href="Marvel Spider-man 2.html"><img
+                    src="EGS_Octopus_InsomniacGamesNixxesSoftware_S2_1200x1600-5831c61378872a1fe233b295fbf3140f.avif" alt="Marvel Spider-man 2"></a>
+                </div>
+                <h6><a href="">Window</a></h6>
+                <p><a href="">Marvel Spider-man 2</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- contant 1 end -->
+    <!-- footer -->
+    <div class="footer">
+        <h3 data-aos="fade-right">Romsgame</h3>
+    </div>
+    <div data-aos="fade-up" class="container-footer" style="display: grid; grid-template-columns: repeat(3,1fr);">
+        <p>Request Game<br>082259453241</p>
+        <p class="thanks">Thanks for Coming</p>
+        <p class="sosial-media">
+            <a  href="">Youtube</a>
+            <a  href="">Instagram</a>
+            <a  href="">Facebook</a>
+            <a  href="">Tiktok</a>
+        </p>
+    </div>
+    <!-- footer end -->
+
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <script>
+      AOS.init();
+    </script>
+      
+</body>
+</html>
